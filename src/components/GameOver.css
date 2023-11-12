@@ -5,11 +5,22 @@ h2 span {
 
 #finishH2 {
     margin-top: -15px;
-    margin-bottom: 95px;
+    margin-bottom: 35px;
+    font-size: 20px;
 }
 
 #finishImg {
     margin-top: -25px;
     height: 350px;
     width: 350px;
+}
+
+#gameOverH1 {
+    margin-top: -55px;
+    margin-bottom: 75px;
+    font-size: 35px;
+}
+
+#gameOver {
+    color: #ecfa00;
 }

@@ -8,9 +8,9 @@ import imgForca from './assets/jogo-da-forca.png'
 import imgGameOver from './assets/gameover.png'
 
 const stages = [
-  { id: 1, name: "start" },
-  { id: 2, name: "game" },
-  { id: 3, name: "end" },
+  { id: 0, name: "start" },
+  { id: 1, name: "game" },
+  { id: 2, name: "end" },
 ];
 
 const guessesQty = 3
@@ -48,7 +48,7 @@ function App() {
     setPickedCategory(category);
     setLetters(wordLetters);
     setGameStage(stages[1].name);
-
+    console.log(word)
   }, [pickWordAndCategory]);
 
   const verifyLetter = (letter) => {
@@ -119,7 +119,7 @@ function App() {
           score={score}
         />
       )}
-      {gameStage === 'end' && <GameOver retry={retry} score={score} imgGameOver={imgGameOver}/>}
+      {gameStage === 'end' && <GameOver retry={retry} pickedWord={pickedWord} score={score} imgGameOver={imgGameOver}/>}
     </div>
   );
 }
