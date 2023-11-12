@@ -1,0 +1,15 @@
+h2 span {
+    color: #ecfa00;
+    font-size: 1.5em;
+}
+
+#finishH2 {
+    margin-top: -15px;
+    margin-bottom: 95px;
+}
+
+#finishImg {
+    margin-top: -25px;
+    height: 350px;
+    width: 350px;
+}
