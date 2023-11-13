@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gameforca/static/css/main.b5ed9e5e.css",
-    "main.js": "/gameforca/static/js/main.50b09130.js",
+    "main.css": "/gameforca/static/css/main.f4f55dc8.css",
+    "main.js": "/gameforca/static/js/main.725eac6a.js",
     "static/js/787.cbc2d298.chunk.js": "/gameforca/static/js/787.cbc2d298.chunk.js",
     "static/media/gameover.png": "/gameforca/static/media/gameover.e99d44b842cf9b787b28.png",
     "index.html": "/gameforca/index.html",
-    "main.b5ed9e5e.css.map": "/gameforca/static/css/main.b5ed9e5e.css.map",
-    "main.50b09130.js.map": "/gameforca/static/js/main.50b09130.js.map",
+    "main.f4f55dc8.css.map": "/gameforca/static/css/main.f4f55dc8.css.map",
+    "main.725eac6a.js.map": "/gameforca/static/js/main.725eac6a.js.map",
     "787.cbc2d298.chunk.js.map": "/gameforca/static/js/787.cbc2d298.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5ed9e5e.css",
-    "static/js/main.50b09130.js"
+    "static/css/main.f4f55dc8.css",
+    "static/js/main.725eac6a.js"
   ]
 }
